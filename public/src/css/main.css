@@ -1,0 +1,408 @@
+/* *** MAIN CSS => CSS PRINCIPAL *** */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-wander{
+    color: white;
+    font-weight: 100;
+}
+/* Design du dashboard -- cf. dashboard.blade.php */
+.new-post {
+    padding: 16px 0;
+}
+
+.new-post header,
+.posts header {
+    margin-bottom: 20px;
+}
+
+.posts .post {
+
+    *padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.posts .post .info {
+    color: #939393;
+    font-weight: 100;
+    font-size: 13px;
+}
+/* --- */
+
+/* Design des messages d'erreurs et de succès pour les formulaires -- cf. _message-block.blade.php */
+.error,
+.success {
+    text-align: center;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #f9b5af;
+    color: red;
+}
+
+.like {
+    font-weight: 100;
+}
+
+.edit {
+    font-weight: 100;
+}
+
+.delete {
+    font-weight: 100;
+}
+
+.error ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+/* --- */
+
+.logo {
+    padding-bottom: 30px;
+}
+
+.hero-line {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.hero-line2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #c53a81;
+}
+
+.hero-line-hero {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+}
+
+.intro-hero {
+    background-image:url(../../img/intro-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.logo-title {
+    height: 150px;
+}
+
+.logo-features {
+    padding-bottom: 25px;
+    height: 100px;
+}
+
+.app-down {
+    margin-top: 45px;
+    height: 80px;
+}
+
+.features {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.wander {
+    background-image:url(../../img/wander.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.p-features {
+    text-align: center;
+    font-weight: 300;
+    color: #909090;
+
+}
+
+.form-title {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.formulaire {
+    color: #FFF;
+}
+
+.champ-form {
+    background-color: transparent;
+    border: solid #FFF 1px;
+    color: #FFF;
+}
+
+.textbel {
+    font-weight: 300;
+}
+
+.textbelw {
+    font-weight: 100;
+    color: #FFF !important;
+}
+
+.bouton1 {
+    background-color: transparent;
+    border: solid #FFF 1px;
+    border-radius: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.bouton1:hover {
+    background-color: #FFF;
+    color: #c53a81;
+    border: solid #FFF 1px;
+    border-radius: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.bouton2:hover {
+    background-color: transparent;
+    color: #FFF;
+    border: solid #FFF 1px;
+    border-radius: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.bouton2 {
+    background-color: #FFF;
+    color: #c53a81;
+    border: solid #FFF 1px;
+    border-radius: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.bouton3:hover {
+    background-color: transparent;
+    color: #c53a81;
+    border: solid #c53a81 1px;
+    border-radius: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.bouton3 {
+    background-color: #c53a81;
+    color: #FFF;
+    border: solid #FFF 1px;
+    border-radius: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footer-bottom {
+    background-color: #1f1f1f;
+    color: #FFF;
+    font-weight: 100;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.liner {
+    font-weight: 100;
+}
+
+.liner-white {
+    font-weight: 100;
+    color: #FFF;
+}
+
+
+/* ---- ANIMATION DE LA SOURIS ---- */
+
+/* ---- ANIMATION DE LA SOURIS ---- */
+
+/* ---- ANIMATION DE LA SOURIS ---- */
+
+.mouse {
+    position: absolute;
+    width: 22px;
+    height: 42px;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
+}
+.scroll {
+    display: block;
+    width: 3px;
+    height: 3px;
+    margin: 6px auto;
+    border-radius: 4px;
+    background: #ffffff;
+    -webkit-animation: finger 1s infinite;
+    animation: finger 1s infinite;
+}
+@-webkit-keyframes intro {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes intro {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes finger {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+@keyframes finger {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+/* ---- ANIMATION DE LA SOURIS ---- */
+
+/* ---- ANIMATION DE LA SOURIS ---- */
+
+/* ---- ANIMATION DE LA SOURIS ---- */
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-image:url(../../img/1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 30px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #FFF;
+    text-transform: uppercase;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    font-family: Montserrat;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #cecece;
+    transition: 0.3s;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.thomas textarea {
+    color: #FFF;
+}
+.glyphicon-menu-hamburger {
+    color: #FFF;
+    font-size: 30px;
+}
